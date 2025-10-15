@@ -1,0 +1,13 @@
+checkpoints/
+dataset/
+runs/
+results/
+liphyp/
+data/*.log
+*.pth
+*.pyc
+*.wav
+*.mp4
+*.yaml
+*.json
+*.log

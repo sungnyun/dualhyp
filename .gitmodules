@@ -1,0 +1,3 @@
+[submodule "data/my_jiwer"]
+	path = data/my_jiwer
+	url = https://github.com/sungnyun/jiwer
