@@ -1,5 +1,9 @@
 # Two Heads Are Better Than One: Audio-Visual Speech Error Correction with Dual Hypotheses
 
+<p align="center">
+<img width="1200" alt="overview" src="./assets/dualhyp.png">
+</p>
+
 > This paper introduces a new paradigm for generative error correction (GER) framework in audio-visual speech recognition (AVSR) that reasons over modality-specific evidences directly in the language space. Our framework, **DualHyp**, empowers a large language model (LLM) to compose independent N-best hypotheses from separate automatic speech recognition (ASR) and visual speech recognition (VSR) models. To maximize the effectiveness of DualHyp, we further introduce **RelPrompt**, a noise-aware guidance mechanism that provides modality-grounded prompts to the LLM. RelPrompt offers the temporal reliability of each stream, guiding the model to dynamically switch its focus between ASR and VSR hypotheses for an accurate correction.
 
 This repository contains the implementation of three approaches:
@@ -152,4 +156,4 @@ Please ensure you have appropriate permissions before using this codebase with L
 
 This work builds upon:
 - [LipGER](https://github.com/Sreyan88/LipGER) for the foundational framework
-- [CAV2vec](https://github.com/sungnyun/cav2vec) for data preprocessing and corruption protocols 
+- [CAV2vec](https://github.com/sungnyun/cav2vec) for data preprocessing and corruption protocols
